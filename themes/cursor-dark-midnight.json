@@ -241,11 +241,11 @@
     "widget.shadow": "#00000066"
   },
   "tokenColors": [
-    { "scope": "emphasis", "settings": { "fontStyle": "italic" } },
+    { "scope": "emphasis", "settings": { "fontStyle": "" } },
     { "scope": "strong", "settings": { "fontStyle": "bold" } },
     {
       "scope": "comment",
-      "settings": { "foreground": "#8597BCA6", "fontStyle": "italic" }
+      "settings": { "foreground": "#8597BCA6", "fontStyle": "" }
     },
     { "scope": "constant.character", "settings": { "foreground": "#EBCB8B" } },
     {
@@ -282,7 +282,7 @@
     { "scope": "entity.name.tag", "settings": { "foreground": "#81A1C1" } },
     {
       "scope": "entity.other.attribute-name",
-      "settings": { "foreground": "#8FBCBB", "fontStyle": "italic" }
+      "settings": { "foreground": "#8FBCBB", "fontStyle": "" }
     },
     {
       "scope": "entity.other.inherited-class",
@@ -545,7 +545,7 @@
     },
     {
       "scope": "variable.language.this.js",
-      "settings": { "foreground": "#B48EAD", "fontStyle": "italic" }
+      "settings": { "foreground": "#B48EAD", "fontStyle": "" }
     },
     {
       "scope": "meta.tag.js entity.name.tag.js support.class.component.js",
@@ -565,7 +565,7 @@
     },
     {
       "scope": "text.html.basic constant.other.inline-data",
-      "settings": { "foreground": "#D08770", "fontStyle": "italic" }
+      "settings": { "foreground": "#D08770", "fontStyle": "" }
     },
     {
       "scope": "text.html.basic meta.tag.sgml.doctype",
@@ -607,7 +607,7 @@
     },
     {
       "scope": "text.html.markdown markup.italic",
-      "settings": { "fontStyle": "italic" }
+      "settings": { "fontStyle": "" }
     },
     {
       "scope": "text.html.markdown markup.underline.link",
@@ -623,7 +623,7 @@
     },
     {
       "scope": "text.html.markdown markup.quote",
-      "settings": { "foreground": "#4C566A", "fontStyle": "italic" }
+      "settings": { "foreground": "#4C566A", "fontStyle": "" }
     },
     {
       "scope": "text.html.markdown punctuation.definition.heading",
@@ -688,7 +688,7 @@
     },
     {
       "scope": "source.css.scss variable.interpolation",
-      "settings": { "foreground": "#D8DEE9", "fontStyle": "italic" }
+      "settings": { "foreground": "#D8DEE9", "fontStyle": "" }
     },
     {
       "scope": [
@@ -760,7 +760,7 @@
         "text.xml string.unquoted.cdata",
         "text.xml string.unquoted.cdata punctuation.definition.string"
       ],
-      "settings": { "foreground": "#D08770", "fontStyle": "italic" }
+      "settings": { "foreground": "#D08770", "fontStyle": "" }
     },
     {
       "scope": "source.yaml entity.name.tag",

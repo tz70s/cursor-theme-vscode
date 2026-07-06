@@ -1490,7 +1490,7 @@
     {
       "name": "Comment",
       "scope": "comment, punctuation.definition.comment, comment.line.double-slash, comment.block.documentation",
-      "settings": { "fontStyle": "italic", "foreground": "#E4E4E45E" }
+      "settings": { "fontStyle": "", "foreground": "#E4E4E45E" }
     },
     {
       "name": "Markdown: Quote",
@@ -1510,17 +1510,17 @@
     {
       "name": "JavaScript/TypeScript: Italic",
       "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
-      "settings": { "fontStyle": "italic" }
+      "settings": { "fontStyle": "" }
     },
     {
       "name": "Python Keyword Control",
       "scope": "keyword.control.import.python,keyword.control.flow.python",
-      "settings": { "fontStyle": "italic" }
+      "settings": { "fontStyle": "" }
     },
     {
       "name": "markup.italic.markdown",
       "scope": "markup.italic.markdown",
-      "settings": { "fontStyle": "italic" }
+      "settings": { "fontStyle": "" }
     }
   ]
 }

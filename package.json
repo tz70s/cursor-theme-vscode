@@ -60,16 +60,10 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "npm run compile",
-    "compile": "echo 'No compilation needed for theme'",
     "package": "vsce package",
     "publish": "vsce publish"
   },
   "devDependencies": {
-    "@types/bun": "latest",
     "@vscode/vsce": "^3.6.2"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
   }
 }

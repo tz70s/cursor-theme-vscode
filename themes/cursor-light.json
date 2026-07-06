@@ -325,7 +325,7 @@
     {
       "name": "Comments",
       "scope": ["comment", "punctuation.definition.comment", "string.comment"],
-      "settings": { "foreground": "#141414AD", "fontStyle": "italic" }
+      "settings": { "foreground": "#141414AD", "fontStyle": "" }
     },
     {
       "name": "Strings",
@@ -784,7 +784,7 @@
     {
       "name": "Python Keyword Control",
       "scope": "keyword.control.import.python,keyword.control.flow.python",
-      "settings": { "fontStyle": "italic" }
+      "settings": { "fontStyle": "" }
     },
     {
       "name": "C/C++ Types",
@@ -900,7 +900,7 @@
     {
       "name": "Markdown Italic",
       "scope": "markup.italic",
-      "settings": { "fontStyle": "italic" }
+      "settings": { "fontStyle": "" }
     },
     {
       "name": "Markdown Bold",
@@ -1043,12 +1043,12 @@
         "invalid.illegal",
         "invalid.unimplemented"
       ],
-      "settings": { "fontStyle": "italic", "foreground": "#B3003F" }
+      "settings": { "fontStyle": "", "foreground": "#B3003F" }
     },
     {
       "name": "Carriage Return",
       "scope": "carriage-return",
-      "settings": { "fontStyle": "italic underline", "foreground": "#1414140A" }
+      "settings": { "fontStyle": "underline", "foreground": "#1414140A" }
     },
     {
       "name": "Error Messages",
